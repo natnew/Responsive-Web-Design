@@ -16,4 +16,12 @@ This repository is part of a larger collection of projects.
 * Machine Learning With Python
 * Coding Projects
 
+
+## Projects
+* Tribute Page
+* Survey Form
+* Product Landing Page
+* Technical Documentation Page
+* Personal Portfolio Webpage
+
 Please give a star ⭐ if you find this repository useful or interesting. THANK YOU!
