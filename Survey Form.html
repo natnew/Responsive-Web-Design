@@ -1,0 +1,120 @@
+<html>
+  
+<head>
+<title>Survey Form</title>
+
+  <style> 
+   
+  </style>
+  </head>
+  
+<body>
+  <main id="main">
+  <h1 id="title"> Survey Form</h1>
+  <p id="description"> Thank you for filling out this short survey!</p>
+    
+  <form id="survey-form">
+   <div id="form1">
+    <label id="name-label" for="name"> Name<br>
+    <input type="text" id="name" placeholder="enter your name" required><br>
+      </div>
+     
+     <div id="form2">
+    <label id="email-label" for="email" required> Email<br>
+    <input type="email" id="email" placeholder="enter your email" pattern:"/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required><br>
+      </div>
+       
+       <div id="form3">
+    <label id="number-label" for="age" > Age<br>
+    <input type=number min=8 max=100 id="number" placeholder="age" >
+      </div>
+         
+         
+      <div id=check>
+      <p>What is your favourite course? (check all that apply)</p>
+      
+      <input type="checkbox" id="Responsive-Web-Design" name="Responsive Web Design" value="course">
+      <label for="">Responsive Web Design</label><br>
+      
+      
+      <input type="checkbox" id="JavaScript-Data-Structures" name="JavaScript Algorithms and Data" value="course">
+      <label for="">JavaScript Algorithms and Data Structures</label><br>
+      
+      
+      <input type="checkbox" id="Front-End" name="Front End Development Libraries" value="course">
+      <label for="">Front End Development Libraries</label><br>
+      
+      
+      <input type="checkbox" id="Data-Visualization" name="Data Visualization" value="course">
+      <label for="">Data Visualization</label><br>
+      
+      
+      <input type="checkbox" id="API" name="APIs And Microservices" value="course">
+      <label for="">APIs And Microservices</label><br>
+      
+      
+      <input type="checkbox" id="Quality-Assurance" name="Quality Assurance" value="course">
+      <label for="">Quality Assurance</label><br>
+      
+      
+      <input type="checkbox" id="Scientific-Computing" name="Scientific Computing With Python" value="course">
+      <label for="">Scientific Computing With Python</label><br>
+      
+      
+      <input type="checkbox" id="Data-Analysis" name="Data Analysis With Python" value="course">
+      <label for="">Data Analysis With Python</label><br>
+      
+      
+      <input type="checkbox" id="Information-Security" name="Information Security" value="course">
+      <label for="">Information Security</label><br>
+      
+      
+      <input type="checkbox" id="Machine-Learning" name="Machine Learning With Python" value="course">
+      <label for="">Machine Learning With Python</label>
+      
+      </div>       
+      
+      
+      <div id="radio1">
+      <p id="fav-language">What is your favourite Language? </p>
+      
+      
+    <input type="radio" id="html" name="language" value="HTML">
+        <label for="HTML">HTML</label><br>
+      
+      
+    <input type="radio" id="css" name="language" value="CSS">
+        <label for="CSS">CSS</label><br>
+    
+      
+    <input type="radio" id="javascript" name="language" value="JAVASCRIPT">
+        <label for="JAVASCRIPT">JAVASCRIPT</label><br>
+        
+      </div>
+      
+      
+      
+      <div id="drop">
+      <p>How would you describe yourself?</p>
+      <select name="Dropdown" id="dropdown">
+        <option value="Programmer"> Programmer</option>
+        <option value="Software Engineer">Software Engineer </option>
+        <option value="Developer"> Developer</option>
+        <option value="Coder">Coder </option>
+        <option value="Data Scientist">Data Scientist </option>
+      </select><br>
+      </div>
+      
+      
+      <p>Additional Suggestions</p>
+      <textarea id="suggestions" name="Additional Suggestions">Additional Suggestions</textarea><br>
+      
+  
+      
+      <button type="submit" id="submit">this button submits the form</button>
+      
+  </form>
+      </main>      
+</body>
+</body>
+</html> 
