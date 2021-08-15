@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+<title>Page Title</title>
+    <style>
+      
+  </style>
+</head>
+  
+<body>
+  <nav id="navbar">
+    <header><h1>Technical Documentation - Python</h1></header>
+      
+      
+      <a class="nav-link" href="#Python_Documentation">Python Documentation</a><br>
+      
+      <a class="nav-link" href="#Argument_Passing">Argument Passing</a><br>
+      
+      <a class="nav-link" href="#Numbers">Numbers</a><br>
+      
+      <a class="nav-link" href="#Strings">Strings</a><br>
+      
+      <a class="nav-link" href="#Lists">Lists</a><br>
+      
+      
+    
+  </nav>
+  
+ 
+  
+<main id="main-doc"> 
+  <h1>PYTHON</h1>
+   
+  
+  
+  <section class="main-section" id="Python_Documentation">
+    <header>Python Documentation</header>
+    
+    
+    <article>
+      <p>Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.</p>
+    <p>The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python Web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.
+
+The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.</p>
+    </article>
+    <ul>
+      <li>print("Hello World")</li>
+      <li>Hello World</li>
+    </ul>
+   
+    
+    
+  </section>
+  
+  
+  
+  <section class="main-section" id="Argument_Passing"> 
+    <header>Argument Passing</header>
+    
+    <article>
+      <p>When known to the interpreter, the script name and additional arguments thereafter are turned into a list of strings and assigned to the argv variable in the sys module. You can access this list by executing import sys. The length of the list is at least one; when no script and no arguments are given, sys.argv[0] is an empty string. When the script name is given as '-' (meaning standard input), sys.argv[0] is set to '-'. When -c command is used, sys.argv[0] is set to '-c'. When -m module is used, sys.argv[0] is set to the full name of the located module. Options found after -c command or -m module are not consumed by the Python interpreter’s option processing but left in sys.argv for the command or module to handle.</p>
+    <p> When commands are read from a tty, the interpreter is said to be in interactive mode. In this mode it prompts for the next command with the primary prompt, usually three greater-than signs, for continuation lines it prompts with the secondary prompt, by default three dots (...). The interpreter prints a welcome message stating its version number and a copyright notice before printing the first prompt: <br><code> &lt;the_world_is_flat = True&gt <br> &ltif the_world_is_flat:
+     print("Be careful not to fall off!")&gt </code> </p>
+    </article>
+    <ul>
+      <li>the_world_is_flat = True</li>
+      <li>if the_world_is_flat:
+     print("Be careful not to fall off!")</li>
+      <li>"Be careful not to fall off!"</li>
+    </ul>
+   </section>
+  
+  
+  
+  <section class="main-section" id="Numbers">
+    <header>Numbers</header>
+      
+    <article>
+    <p> In the following examples, input and output are distinguished by the presence or absence of prompts, to repeat the example, you must type everything after the prompt, when the prompt appears; lines that do not begin with a prompt are output from the interpreter. Note that a secondary prompt on a line by itself in an example means you must type a blank line; this is used to end a multi-line command. </p>
+    <p> Many of the examples in this manual, even those entered at the interactive prompt, include comments. Comments in Python start with the hash character, #, and extend to the end of the physical line. A comment may appear at the start of a line or following whitespace or code, but not within a string literal. A hash character within a string literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may be omitted when typing in examples. <br></p>
+      <p> The interpreter acts as a simple calculator: you can type an expression at it and it will write the value. Expression syntax is straightforward: the operators +, -, * and / work just like in most other languages (for example, Pascal or C); parentheses (()) can be used for grouping. For example: <br> &lt;2 + 2 &gt <br> 4 </p>
+    </article>
+    <ul>
+      <li>2 + 2</li>
+      <li>4</li>
+    </ul>
+    
+    <code>50-10</code><br>
+    <code>40</code><br>
+    
+  </section>
+  
+  
+ 
+  <section class="main-section" id="Strings">
+    <header>Strings</header> 
+    
+      
+    <article>
+    <p>In the following examples, input and output are distinguished by the presence or absence of prompts to repeat the example, you must type everything after the prompt, when the prompt appears; lines that do not begin with a prompt are output from the interpreter. Note that a secondary prompt on a line by itself in an example means you must type a blank line; this is used to end a multi-line command.</p>
+    <p>Many of the examples in this manual, even those entered at the interactive prompt, include comments. Comments in Python start with the hash character, #, and extend to the end of the physical line. A comment may appear at the start of a line or following whitespace or code, but not within a string literal. A hash character within a string literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may be omitted when typing in examples.<br>&lt;"This is a string" &gt <br> This is a string</p>
+    </article>
+    <ul>
+      <li>"This is a string"</li>
+      <li>This is a string</li>
+    </ul>
+    
+    <code>print('strings are surrounded by single quotes' )</code><br>
+    <code>print("or double quotes" )</code>
+    
+  </section>
+ 
+  
+  
+  <section class="main-section" id="Lists">
+    <header>Lists</header>
+    
+    <article>
+    <p> In the following examples, input and output are distinguished by the presence or absence of prompts to repeat the example, you must type everything after the prompt, when the prompt appears; lines that do not begin with a prompt are output from the interpreter. Note that a secondary prompt on a line by itself in an example means you must type a blank line; this is used to end a multi-line command. </p>
+    <p>Many of the examples in this manual, even those entered at the interactive prompt, include comments. Comments in Python start with the hash character, #, and extend to the end of the physical line. A comment may appear at the start of a line or following whitespace or code, but not within a string literal. A hash character within a string literal is just a hash character. Since comments are to clarify code and are not interpreted by Python, they may be omitted when typing in examples: <br> &lt;sqaures = [1, 3, 5, 7] &gt <br> [1, 3, 5, 7]<br> &lt;letters = [a, b, c, d, e] &gt <br> [a, b, c, d, e]</p>
+    </article>
+    <ul>
+      <li>letters = [a, b, c, d, e]</li>
+      <li>[a, b, c, d, e]</li>
+    </ul>
+  </section>
+  
+  <code>cubes = [1, 8, 27, 65, 125]</code><br>
+  <code>cubes[3] = 64</code><br>
+  <code>cubes</code><br>
+  <code>[1, 8, 27, 64, 125]</code><br>
+
+      <section>
+        <p>All the documentation on this page  taken from</p>
+          <a
+            href="https://docs.python.org/3/tutorial/index.html"
+            target="_blank"
+             >PY</a>
+      </section>
+  
+</main>
+</body>
+  
+  
+</html>
