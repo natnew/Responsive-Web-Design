@@ -1,0 +1,121 @@
+
+      *, *:before, *:after {
+  margin:0;
+  padding:0;
+  box-sizing: inherit;
+}
+      
+      
+      #welcome-section {
+        background-color:#666699;
+        color: white;
+        height: 100vh;
+        max-width: 100%;
+        text-align: center;
+        font-family: sans-serif, monospace, serif;
+        
+        
+      }
+      
+      #projects {
+        Background-color: #bf1717;
+        color: white;
+        height: 100vh;
+        max-width: 100%;
+        padding: 30px;
+        text-align: center;
+        font-family: sans-serif, monospace, serif;
+        
+      }
+      
+      #collaboration {
+        background-color:#666699;
+        color: white;
+        height: 100vh;
+        max-width: 100%;
+        padding: 30px;
+        text-align: center;
+        font-family: sans-serif, monospace, serif;
+      }
+      
+      #navbar {
+        Background-color: #242323;
+        text-align: right;
+        color: white;
+        padding: 20px;
+        min-width: 100%;
+        font-family: sans-serif, monospace, serif;
+        position: fixed;
+        display: flex;
+        margin-top: 0px;
+      }
+      
+      #nav-home {
+        padding: 30px;
+      }
+      #nav-work {
+        padding: 30px;
+      }
+      #nav-contact {
+        padding: 30px;
+      }
+      
+      
+      
+      .project-title {
+        background-color: #242323;
+        padding:10px;
+        width:30%;
+        text-align: center;
+        margin-left:35%;
+        margin-right:30%;
+        border-radius: 5px;
+      }
+      
+      #sub-tile {
+        color: ;
+        font-style: italic;
+        text-align: center;
+        
+      }
+      
+      #welcome-head {
+        color: ;
+        font-style: italic;
+        text-align: center;
+        padding-top: 200px;
+        
+      }
+      
+      a {
+        color: white;
+        text-align: center;
+      }
+      
+      
+      @media (min-width: 400px) {
+        #footer {
+        Background-color: #242323;
+        text-align: right;
+        color: white;
+        padding: 10px;
+      }
+      } 
+      
+      @media (min-width: 200px) {
+        #footer {
+        Background-color: #242323;
+        text-align: left;
+        color: white;
+        padding: 10px;
+      }
+      } 
+      h1 {
+        text-align: center;
+      } 
+      
+      p {
+        text-align: center;
+      }
+      
+    

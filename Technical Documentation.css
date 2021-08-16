@@ -1,0 +1,70 @@
+#main-doc {
+    text-align: center;
+    max-width: 70%;
+    position: relative;
+    left: 300px;
+  }
+  
+  
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    background-color: #e6e6e6;
+    padding: 20px;
+    color: black;
+    
+    
+  }
+  
+   
+  
+  .nav-link {
+    margin-top:80px;
+  }
+  
+  .main-section {
+    margin:50px;
+    border-top: 2px solid grey;
+    
+  }
+  
+  @media (min-width: 300) {
+    navbar {
+      text-align: left;
+      position: fixed;
+      visability: visable
+    }
+  }
+  
+  ul {
+    text-align: left;
+  }
+  
+  a {
+    color: black;
+  }
+  header {
+    font-weight: bold; 
+   font-size: 20px;
+   font-variant: small-caps;
+   letter-spacing: 5px;
+   font-style: italic;
+   font-family: times new roman;
+  }
+  
+  p {
+    font-family: times new roman;
+  }
+  
+  code {
+    background: #e6e6e6;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 3px;
+  }
